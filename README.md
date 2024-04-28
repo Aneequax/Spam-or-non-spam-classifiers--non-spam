@@ -25,6 +25,8 @@ The **Spam or Ham Classifier** project aims to develop a model that classifies e
 
 - **Model Training**: The classifier of choice for this project is the Naive Bayes classifier, specifically `MultinomialNB` from `sklearn.naive_bayes`. The project trains the model on the processed data, using the bag-of-words representation and labels (spam or ham) to learn the patterns in the data.
 
+ **Machine Language Technique** We considered 80 percent of data for training and 20 percent of data for testing for implementing multinomial NB 
+
 - **Model Evaluation**: To assess the performance of the classifier, the project uses a confusion matrix to evaluate the model's ability to classify emails as spam or ham. The confusion matrix provides metrics such as precision, recall, and F1-score for each class, allowing the team to gauge the model's accuracy and overall effectiveness.
 
 - **Prediction and Results**: Once the model is trained and evaluated, it can be used to predict whether new emails are spam or ham. The project's ultimate goal is to achieve a high level of accuracy in classifying emails, helping users manage their inboxes effectively and reduce the impact of spam.
